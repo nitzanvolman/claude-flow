@@ -2181,7 +2181,7 @@ Tools can be chained for complex workflows:
 4. **Build Workflows**: Combine tools into automated workflows
 5. **Monitor and Optimize**: Use analytics tools to optimize performance
 
-For detailed setup instructions, see the [Integration Guide](integration/README.md).
+For detailed setup instructions, see the [Integration Guide](../integrations/README.md).
 
 ---
 

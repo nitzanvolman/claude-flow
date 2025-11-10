@@ -688,9 +688,9 @@ npx claude-flow@alpha log-analysis \
 
 ### Documentation Links
 - [GitHub Repository](https://github.com/ruvnet/claude-flow)
-- [Integration Guide](./INTEGRATION_GUIDE.md)
-- [Agent System Documentation](./agent-system-documentation.md)
-- [MCP Tools Reference](./mcp-tools-reference.md)
+- [Integration Guide](../development/DEVELOPMENT_WORKFLOW.md)
+- [Agent System Documentation](../reference/AGENTS.md)
+- [MCP Tools Reference](../reference/MCP_TOOLS.md)
 
 ### CLI Help
 ```bash
@@ -716,6 +716,6 @@ npx claude-flow@alpha --version
 
 *Intelligent AI Agent Orchestration*
 
-[🚀 Get Started](../README.md) | [🔧 Configure](./DEPLOYMENT.md) | [🤝 Contribute](../CONTRIBUTING.md)
+[🚀 Get Started](../README.md) | [🔧 Configure](../development/DEPLOYMENT.md) | [🤝 Contribute](../../CONTRIBUTING.md)
 
 </div>

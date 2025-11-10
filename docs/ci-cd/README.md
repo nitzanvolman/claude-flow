@@ -360,8 +360,8 @@ When updating workflows:
 
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [Claude Flow Wiki](https://github.com/ruvnet/claude-code-flow/wiki)
-- [Agent System Documentation](../agent-system-documentation.md)
-- [Performance Benchmarking](../reports/PERFORMANCE_METRICS_VALIDATION_REPORT.md)
+- [Agent System Documentation](../reference/AGENTS.md)
+- [Performance Benchmarking](../reports/README.md)
 
 ---
 

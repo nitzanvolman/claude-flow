@@ -736,9 +736,9 @@ claude-flow agent run coder "Build API" \
 ## 🔗 Related Documentation
 
 - **ReasoningBank Paper**: https://arxiv.org/html/2509.25140v1
-- **Agent Creation Guide**: `docs/REASONINGBANK-AGENT-CREATION-GUIDE.md`
-- **Reasoning Agents**: `.claude/agents/reasoning/README.md`
-- **Available Agents**: Run `claude-flow agent agents`
+- **Agent Creation Guide**: See `docs/` directory for REASONINGBANK documentation
+- **Reasoning Agents**: See `.claude/agents/` for agent configurations
+- **Available Agents**: Run `npx claude-flow agent list`
 
 ## 🆘 Support
 

@@ -70,11 +70,11 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 
 ## SPARC Workflow Phases
 
-1. **Specification** - Requirements analysis (`sparc run spec-pseudocode`)
-2. **Pseudocode** - Algorithm design (`sparc run spec-pseudocode`)
-3. **Architecture** - System design (`sparc run architect`)
+1. **Specification** - Requirements analysis (`sparc run specification`)
+2. **Pseudocode** - Algorithm design (`sparc run pseudocode`)
+3. **Architecture** - System design (`sparc run architecture`)
 4. **Refinement** - TDD implementation (`sparc tdd`)
-5. **Completion** - Integration (`sparc run integration`)
+5. **Completion** - Integration (`sparc run refinement`)
 
 ## Code Style & Best Practices
 
@@ -84,34 +84,33 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 - **Clean Architecture**: Separate concerns
 - **Documentation**: Keep updated
 
-## 🚀 Available Agents (54 Total)
+## 🚀 Agent Types & Coordination
 
-### Core Development
-`coder`, `reviewer`, `tester`, `planner`, `researcher`
+### Core Agent Types (6 Base Types)
+- `researcher` - Research and analysis tasks
+- `coder` - Code implementation and development
+- `tester` - Quality assurance and testing
+- `analyst` - Data and pattern analysis
+- `architect` - System design and planning
+- `coordinator` - Task coordination and orchestration
 
-### Swarm Coordination
-`hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`, `collective-intelligence-coordinator`, `swarm-memory-manager`
+### Coordination Topologies (5 Patterns)
+- `hierarchical` - Tree-based command structure
+- `mesh` - Fully connected peer-to-peer network
+- `ring` - Circular sequential coordination
+- `star` - Centralized hub-and-spoke pattern
+- `adaptive` - Dynamic topology based on task requirements
 
-### Consensus & Distributed
-`byzantine-coordinator`, `raft-manager`, `gossip-coordinator`, `consensus-builder`, `crdt-synchronizer`, `quorum-manager`, `security-manager`
-
-### Performance & Optimization
-`perf-analyzer`, `performance-benchmarker`, `task-orchestrator`, `memory-coordinator`, `smart-agent`
-
-### GitHub & Repository
-`github-modes`, `pr-manager`, `code-review-swarm`, `issue-tracker`, `release-manager`, `workflow-automation`, `project-board-sync`, `repo-architect`, `multi-repo-swarm`
-
-### SPARC Methodology
-`sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`, `refinement`
-
-### Specialized Development
-`backend-dev`, `mobile-dev`, `ml-developer`, `cicd-engineer`, `api-docs`, `system-architect`, `code-analyzer`, `base-template-generator`
-
-### Testing & Validation
-`tdd-london-swarm`, `production-validator`
-
-### Migration & Planning
-`migration-planner`, `swarm-init`
+### Specialized Configurations (54+ Variants)
+Composed from core types + domain workflows:
+- **Development**: `backend-dev`, `mobile-dev`, `ml-developer`, `cicd-engineer`, `api-docs`, `system-architect`, `code-analyzer`, `base-template-generator`
+- **GitHub**: `github-modes`, `pr-manager`, `code-review-swarm`, `issue-tracker`, `release-manager`, `workflow-automation`, `project-board-sync`, `repo-architect`, `multi-repo-swarm`
+- **SPARC**: `sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`, `refinement`
+- **Coordination**: `hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`, `collective-intelligence-coordinator`, `swarm-memory-manager`
+- **Distributed**: `byzantine-coordinator`, `raft-manager`, `gossip-coordinator`, `consensus-builder`, `crdt-synchronizer`, `quorum-manager`, `security-manager`
+- **Performance**: `perf-analyzer`, `performance-benchmarker`, `task-orchestrator`, `memory-coordinator`, `smart-agent`
+- **Testing**: `tdd-london-swarm`, `production-validator`
+- **Planning**: `migration-planner`, `swarm-init`
 
 ## 🎯 Claude Code vs MCP Tools
 
@@ -142,7 +141,7 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 
 ```bash
 # Add MCP servers (Claude Flow required, others optional)
-claude mcp add claude-flow npx claude-flow@alpha mcp start
+claude mcp add claude-flow npx claude-flow@^2.7.31 mcp start
 claude mcp add ruv-swarm npx ruv-swarm mcp start  # Optional: Enhanced coordination
 claude mcp add flow-nexus npx flow-nexus@latest mcp start  # Optional: Cloud features
 ```
@@ -313,7 +312,7 @@ Message 4: Write "file.js"
 - Restore context
 - Export workflows
 
-## Advanced Features (v2.0.0)
+## Advanced Features (v2.7.31)
 
 - 🚀 Automatic Topology Selection
 - ⚡ Parallel Execution (2.8-4.4x speed)
@@ -333,6 +332,13 @@ Message 4: Write "file.js"
 5. Train patterns from success
 6. Enable hooks automation
 7. Use GitHub tools first
+
+## 📚 Essential Documentation
+
+- **[Spec-Driven Development with Hive Mind](./docs/guides/SPEC_DRIVEN_DEVELOPMENT_WITH_HIVE_MIND.md)** - Complete guide to maximum parallelism and hive mind patterns
+- **[Skills Tutorial](./docs/guides/skills-tutorial.md)** - 25 Claude Flow skills with usage examples
+- **[User Guide](./docs/guides/USER_GUIDE.md)** - Comprehensive usage documentation
+- **[Documentation Index](./docs/INDEX.md)** - Complete documentation navigation
 
 ## Support
 
