@@ -89,7 +89,7 @@ Claude-Flow includes **25 specialized skills** that activate automatically via n
 - **Automation & Quality** (4) - Hooks, verification, performance analysis
 - **Flow Nexus Platform** (3) - Cloud sandboxes and neural training
 
-📚 **[Complete Skills Tutorial](./docs/skills-tutorial.md)** - Full guide with usage examples
+📚 **[Complete Skills Tutorial](./docs/guides/skills-tutorial.md)** - Full guide with usage examples
 
 ---
 
@@ -117,7 +117,7 @@ npx claude-flow@alpha memory query "configuration" --namespace semantic --reason
 # ✅ Found 3 results (semantic search) in 2ms
 ```
 
-📚 **Release Notes**: [v2.7.0-alpha.10](./docs/RELEASE-NOTES-v2.7.0-alpha.10.md)
+📚 **Release Notes**: [v2.7.0-alpha.10](./docs/releases/v2.7.0-alpha.10/)
 
 ## 🧠 **Memory System Commands**
 
